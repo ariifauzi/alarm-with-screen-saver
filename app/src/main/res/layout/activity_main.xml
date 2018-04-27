@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <DigitalClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <ToggleButton
+        android:id="@+id/startSetDialog4"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="50dp"
+        android:checked="false"
+        android:text="Turn On/Off Camera LED/ Flashlight Android"
+        android:textOff="Turn On Flash"
+        android:textOn="Turn Off Flash" />
+
+    <Button
+        android:id="@+id/startSetDialog"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/startSetDialog4"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@android:drawable/ic_lock_idle_alarm"
+        android:text="Set Alarm"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/alarmprompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/paintActivity"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/startSetDialog"
+        android:text="Paint"
+        android:textAlignment="textEnd" />
+
+    <Button
+        android:id="@+id/notepadActivity"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/paintActivity"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:text="Notepad"
+        android:textAlignment="textEnd" />
+
+    <Button
+        android:id="@+id/stopwatchActivity"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/notepadActivity"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@android:drawable/ic_lock_idle_alarm"
+        android:text="Stopwatch"
+        android:textAlignment="textEnd" />
+
+    <Button
+        android:id="@+id/vibrateActivity"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/stopwatchActivity"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="15dp"
+        android:text="Vibrate"
+        android:textAlignment="textEnd" />
+
+
+
+
+</LinearLayout>
+
+
+
+
